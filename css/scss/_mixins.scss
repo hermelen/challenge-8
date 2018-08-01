@@ -2,4 +2,36 @@
 @mixin pink-section {
   color: white;
   background: linear-gradient(to right, $pinky 0%,$salmon 100%);
+  section {
+    article {
+      background: white;
+      color: #2e2e2e;
+      h2, p {
+        margin: 1em;
+      }
+      footer {
+        display: flex;
+        justify-content: space-between;
+        padding: 1em;
+        span {
+          display: inline-block;
+        }
+      }
+    }
+  }
+}
+
+@mixin all-sections {
+  padding: 8em;
+}
+
+@mixin grid-3 {
+  section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 1em;
+    img {
+      width: 100%;
+    }
+  }
 }

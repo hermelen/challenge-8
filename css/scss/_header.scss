@@ -22,8 +22,10 @@ header{
         width: 50%;
     }
     .scroll-down {
-    display: block;
-    text-align: center;
+      display: block;
+      text-align: center;
+      align-self: end;
+      padding-bottom: 1em;
     }
 
 }

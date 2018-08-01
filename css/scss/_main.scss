@@ -1,4 +1,40 @@
 body{
     padding: 0;
     margin:0;
+    a{
+      text-decoration: none;
+      color: inherit;
+    }
+  section.gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    div {
+      div {
+        img {
+          width: 100%;
+        }
+      }
+      div.dual-img {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+  section.services {
+    @include all-sections;
+    @include grid-3;
+  }
+  section.products {
+    @include pink-section;
+    @include all-sections;
+    @include grid-3;
+  }
+  section.benefits {
+    @include all-sections;
+    @include grid-3;
+  }
+  footer {
+    @include all-sections;
+    @include grid-3;
+  }
 }

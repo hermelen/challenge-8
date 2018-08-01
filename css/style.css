@@ -1,27 +1,2 @@
-header {
-  color: white;
-  background: linear-gradient(to right, rgba(244, 62, 159, 0.6) 0%, rgba(255, 118, 118, 0.6) 100%);
-  display: grid;
-  padding: 0 2em;
-  min-height: 500px; }
-  header nav {
-    display: flex;
-    justify-content: space-between; }
-    header nav h1 {
-      display: inline-block; }
-    header nav ul {
-      display: inline-flex; }
-      header nav ul li {
-        padding: 0.5em;
-        list-style: none; }
-  header section {
-    width: 50%; }
-  header .scroll-down {
-    display: block;
-    text-align: center; }
-
-body {
-  padding: 0;
-  margin: 0; }
-
+header{color:white;background:linear-gradient(to right, rgba(244,62,159,0.6) 0%, rgba(255,118,118,0.6) 100%);display:grid;padding:0 2em;min-height:500px}header section article{background:white;color:#2e2e2e}header section article h2,header section article p{margin:1em}header section article footer{display:flex;justify-content:space-between;padding:1em}header section article footer span{display:inline-block}header nav{display:flex;justify-content:space-between}header nav h1{display:inline-block}header nav ul{display:inline-flex}header nav ul li{padding:0.5em;list-style:none}header section{width:50%}header .scroll-down{display:block;text-align:center;align-self:end;padding-bottom:1em}body{padding:0;margin:0}body a{text-decoration:none;color:inherit}body section.gallery{display:grid;grid-template-columns:1fr 1fr}body section.gallery div div img{width:100%}body section.gallery div div.dual-img{display:grid;grid-template-columns:1fr 1fr}body section.services{padding:8em}body section.services section{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}body section.services section img{width:100%}body section.products{color:white;background:linear-gradient(to right, rgba(244,62,159,0.6) 0%, rgba(255,118,118,0.6) 100%);padding:8em}body section.products section article{background:white;color:#2e2e2e}body section.products section article h2,body section.products section article p{margin:1em}body section.products section article footer{display:flex;justify-content:space-between;padding:1em}body section.products section article footer span{display:inline-block}body section.products section{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}body section.products section img{width:100%}body section.benefits{padding:8em}body section.benefits section{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}body section.benefits section img{width:100%}body footer{padding:8em}body footer section{display:grid;grid-template-columns:1fr 1fr 1fr;grid-gap:1em}body footer section img{width:100%}
 /*# sourceMappingURL=style.css.map */
