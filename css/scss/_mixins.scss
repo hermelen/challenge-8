@@ -1,0 +1,5 @@
+
+@mixin pink-section {
+  color: white;
+  background: linear-gradient(to right, $pinky 0%,$salmon 100%);
+}
