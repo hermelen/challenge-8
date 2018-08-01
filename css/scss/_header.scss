@@ -1,0 +1,29 @@
+header{
+    @include pink-section;
+    display: grid;
+    padding: 0 2em;
+    min-height: 500px;
+    nav{
+        display: flex;
+        justify-content: space-between;
+
+        h1{
+            display:inline-block;
+        }
+        ul{
+            display: inline-flex;
+            li{
+                padding:0.5em;
+                list-style: none;
+            }
+        }
+    }
+    section{
+        width: 50%;
+    }
+    .scroll-down {
+    display: block;
+    text-align: center;
+    }
+
+}
